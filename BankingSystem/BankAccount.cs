@@ -2,11 +2,11 @@ namespace BankingSystem;
 
 public class BankAccount
 {
-    protected int AccountNumber { get; set; }
-    protected string Name { get; set; }
-    protected decimal Balance { get; set; }
+    public int AccountNumber { get;private set; }
+    public string Name { get;private set; }
+    public decimal Balance { get;protected set; }
     
-    public void CreateAccount(int accountNumber, string name, decimal balance)
+    public BankAccount(int accountNumber, string name, decimal balance)
     {
         AccountNumber=accountNumber;
         Name=name;

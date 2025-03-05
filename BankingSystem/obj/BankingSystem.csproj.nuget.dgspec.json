@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/anik/RiderProjects/BankingSystem/BankingSystem/BankingSystem.csproj": {}
+    "C:\\Users\\anikd\\Source\\Repos\\Banking_System\\BankingSystem\\BankingSystem.csproj": {}
   },
   "projects": {
-    "/home/anik/RiderProjects/BankingSystem/BankingSystem/BankingSystem.csproj": {
+    "C:\\Users\\anikd\\Source\\Repos\\Banking_System\\BankingSystem\\BankingSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/anik/RiderProjects/BankingSystem/BankingSystem/BankingSystem.csproj",
+        "projectUniqueName": "C:\\Users\\anikd\\Source\\Repos\\Banking_System\\BankingSystem\\BankingSystem.csproj",
         "projectName": "BankingSystem",
-        "projectPath": "/home/anik/RiderProjects/BankingSystem/BankingSystem/BankingSystem.csproj",
-        "packagesPath": "/home/anik/.nuget/packages/",
-        "outputPath": "/home/anik/RiderProjects/BankingSystem/BankingSystem/obj/",
+        "projectPath": "C:\\Users\\anikd\\Source\\Repos\\Banking_System\\BankingSystem\\BankingSystem.csproj",
+        "packagesPath": "C:\\Users\\anikd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anikd\\Source\\Repos\\Banking_System\\BankingSystem\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/anik/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\anikd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/anik/.dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

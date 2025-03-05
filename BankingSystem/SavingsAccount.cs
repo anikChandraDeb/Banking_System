@@ -3,11 +3,8 @@ namespace BankingSystem;
 public class SavingsAccount: BankAccount
 {
     private decimal InterestRate { get; set; }
-    public void CreateAccount(int accountNumber, string name, decimal balance,decimal interestRate)
+    public SavingsAccount(int accountNumber, string name, decimal balance,decimal interestRate):base(accountNumber,name,balance)
     {
-        AccountNumber=accountNumber;
-        Name=name;
-        Balance = balance;
         InterestRate=interestRate;
     }
 
